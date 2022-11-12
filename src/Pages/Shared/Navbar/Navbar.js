@@ -4,7 +4,7 @@ import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
     return (
-        <header className="navbar h-[73.04px] px-[74px] py-[6px] bg-base-100">
+        <header className="navbar h-[73.04px] px-[74px] py-[6px]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
