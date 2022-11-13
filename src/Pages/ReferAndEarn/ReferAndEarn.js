@@ -10,14 +10,6 @@ import { TbDiscount2 } from "react-icons/tb";
 const ReferAndEarn = () => {
     return (
         <main className='ml-[187px]'>
-            <div className='pt-[30px] pb-[25px]'>
-                <div className="text-black text-[14px] leading-[21px] font-normal breadcrumbs">
-                    <ul>
-                        <li>UI/UX</li>
-                        <li><Link to='/'>Refer & Earn</Link></li>
-                    </ul>
-                </div>
-            </div>
             <section className='mt-[30px]'>
                 <div className='flex justify-start'>
                     <div className="card w-[486px] h-[188px]
@@ -112,8 +104,10 @@ const ReferAndEarn = () => {
                         </div>
                     </div>
                 </div>
-                <h2 className='text-primary text-[16px] font-medium 
+                <Link to='/friendsReferred'>
+                    <h2 className='text-primary text-[16px] font-medium 
                     leading-[24px] mb-[20px]'>Friends Who Enrolled</h2>
+                </Link>
                 <h2 className='text-primary text-[16px] font-medium 
                     leading-[24px] mb-[80px]'>Terms & Conditions</h2>
             </section>
