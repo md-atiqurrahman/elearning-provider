@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ReferAndEarn.css';
+import { IoIosPeople, IoMdWallet } from "react-icons/io";
+import { FaRupeeSign } from "react-icons/fa";
+import { BsFillTagFill } from "react-icons/bs";
+import { TbDiscount2 } from "react-icons/tb";
+
 
 const ReferAndEarn = () => {
     return (
@@ -45,6 +50,72 @@ const ReferAndEarn = () => {
                         </div>
                     </div>
                 </div>
+                <div className='mt-[40px]'>
+                    <h1 className='text-primary text-[24px] font-semibold 
+                    leading-[36px] mb-[22px]'>How does it work?</h1>
+                    <div className='flex justify-start items-start gap-[38px] 
+                    mb-[63px]'>
+                        <div>
+                            <div className='flex items-start gap-[20px] mb-[37px]'>
+                                <div className='flex justify-center items-center bg-[#d9d9d940] w-[65px] h-[65px] 
+                        rounded-[50%]'>
+                                    <span className='text-[#FF864C] text-[32px] leading-[16px]'><IoIosPeople /></span>
+                                </div>
+                                <div className='w-[274px]'>
+                                    <h5 className='text-black text-[16px] leading-[24px] font-medium'>Invite your Friends</h5>
+                                    <p className='text-secondary text-[16px] leading-[24px] font-normal'>Share the link tutedude.com with your friends</p>
+                                </div>
+                            </div>
+                            <div className='flex items-start gap-[20px] mb-[37px]'>
+                                <div className='flex justify-center items-center bg-[#d9d9d940] w-[65px] h-[65px] 
+                        rounded-[50%]'>
+                                    <span className='text-[#FF864C] text-[32px] leading-[16px]'><FaRupeeSign /></span>
+                                </div>
+                                <div className='w-[274px]'>
+                                    <h5 className='text-black text-[16px] leading-[24px] font-medium'>You get ₹ 200 as referral money</h5>
+                                    <p className='text-secondary text-[16px] leading-[24px] font-normal'>On total purchase the friend makes, into your wallet</p>
+                                </div>
+                            </div>
+                            <div className='flex items-start gap-[20px]'>
+                                <div className='flex justify-center items-center bg-[#d9d9d940] w-[65px] h-[65px] 
+                        rounded-[50%]'>
+                                    <span className='text-[#FF864C] text-[32px] leading-[16px]'><IoMdWallet /></span>
+                                </div>
+                                <div className='w-[274px]'>
+                                    <h5 className='text-black text-[16px] leading-[24px] font-medium'>Transfer money from wallet</h5>
+                                    <p className='text-secondary text-[16px] leading-[24px] font-normal'>When the wallet balance reaches
+                                        ₹200 or more, you can withdraw it</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex items-start gap-[20px] mb-[37px]'>
+                                <div className='flex justify-center items-center bg-[#d9d9d940] w-[65px] h-[65px] 
+                        rounded-[50%]'>
+                                    <span className='text-[#FF864C] text-[32px] leading-[16px]'><BsFillTagFill /></span>
+                                </div>
+                                <div className='w-[274px]'>
+                                    <h5 className='text-black text-[16px] leading-[24px] font-medium'>Friend purchases any course</h5>
+                                    <p className='text-secondary text-[16px] leading-[24px] font-normal'>Using your REFERRAL CODE in the payments page</p>
+                                </div>
+                            </div>
+                            <div className='flex items-start gap-[20px]'>
+                                <div className='flex justify-center items-center bg-[#d9d9d940] w-[65px] h-[65px] 
+                        rounded-[50%]'>
+                                    <span className='text-[#FF864C] text-[32px] leading-[16px]'><TbDiscount2 /></span>
+                                </div>
+                                <div className='w-[274px]'>
+                                    <h5 className='text-black text-[16px] leading-[24px] font-medium'>Your Friend gets ₹ 200 Off </h5>
+                                    <p className='text-secondary text-[16px] leading-[24px] font-normal'>On his overall fee on successful purchase using your referral code </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 className='text-primary text-[16px] font-medium 
+                    leading-[24px] mb-[20px]'>Friends Who Enrolled</h2>
+                <h2 className='text-primary text-[16px] font-medium 
+                    leading-[24px] mb-[80px]'>Terms & Conditions</h2>
             </section>
         </main>
     );
