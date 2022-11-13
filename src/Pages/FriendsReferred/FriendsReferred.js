@@ -1,4 +1,5 @@
 import React from 'react';
+import ReferredCard from '../ReferredCard/ReferredCard';
 
 const FriendsReferred = () => {
     return (
@@ -24,17 +25,12 @@ const FriendsReferred = () => {
             </div>
             <div>
                 <h1 className='text-primary text-[20px] leading-[30px] font-semibold mb-[20px]'>Friends who enrolled<span className='text-[#626262]'>(3)</span></h1>
-                <div>
-                    <div className="card referred-card w-[358px] h-[228px]
-                   shadow-[0_3px_100px_rgba(0,0,0,0.1)]">
-                        <div className="card-body text-white p-[20px]">
-                            <div className='flex justify-between items-center'>
-                                <h3 className="text-[16px] font-bold leading-[24px]">Dhiraj Saxsena</h3>
-                                <h5 className=' font-normal text-[14px] leading-[21px]'>14 Sep, 2022</h5>
-                            </div>
-                        </div>
-                    </div>
+                <div className='flex gap-[20px] mb-[60px]'>
+                    <ReferredCard name='Dhiraj Saxsena' date='14 Sep, 2022' courses='6' amount='185'/>
+                    <ReferredCard name='Subhash Mishra' date='15 Sep, 2022' courses='23' amount='485' extra='C++'/>
+                    <ReferredCard name='Prafull Kumar' date='16 Sep, 2022' courses='23' amount='485' extra='C++'/>
                 </div>
+                <h1 className='text-primary text-[16px] leading-[24px] font-medium mb-[72px]'>Terms & Conditions</h1>
             </div>
         </div>
     );
