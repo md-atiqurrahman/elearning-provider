@@ -15,7 +15,7 @@ const ReferAndEarn = () => {
                     <div className="card w-[358px] lg:w-[486px] h-[198] lg:h-[188px]
                    shadow-[0_3px_100px_rgba(0,0,0,0.1)]">
                         <div className="card-body  p-[20px]">
-                            <div className='flex justify-between'>
+                            <div className='grid grid-cols-2 gap-3 lg:flex lg:justify-between'>
                                 <div>
                                     <h4 className="text-primary text-[14px] font-normal leading-[21px]">Referral Earning</h4>
                                     <h1 className='text-black font-medium text-[32px] leading-[48px]'>₹ 2,500</h1>
@@ -109,7 +109,7 @@ const ReferAndEarn = () => {
                     leading-[24px] mb-[20px]'>Friends Who Enrolled</h2>
                 </Link>
                 <h2 className='text-primary text-[16px] font-medium 
-                    leading-[24px] mb-[80px]'>Terms & Conditions</h2>
+                    leading-[24px] mb-[36px] lg:mb-[80px]'>Terms & Conditions</h2>
             </div>
         </section>
     );
