@@ -9,10 +9,10 @@ import { TbDiscount2 } from "react-icons/tb";
 
 const ReferAndEarn = () => {
     return (
-        <main className='ml-[187px]'>
-            <section className='mt-[30px]'>
-                <div className='flex justify-start'>
-                    <div className="card w-[486px] h-[188px]
+        <section className='ml-[35px] lg:ml-[187px]'>
+            <div className='mt-[30px]'>
+                <div className='flex flex-col lg:flex lg:flex-row justify-start'>
+                    <div className="card w-[358px] lg:w-[486px] h-[198] lg:h-[188px]
                    shadow-[0_3px_100px_rgba(0,0,0,0.1)]">
                         <div className="card-body  p-[20px]">
                             <div className='flex justify-between'>
@@ -34,9 +34,9 @@ const ReferAndEarn = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='ml-[93px] text-primary'>
+                    <div className='ml-[0] lg:ml-[93px] text-primary'>
                         <h1 className='text-[24px] leading-[36px] font-semibold 
-                        mb-[9px]'>Your Referral Code</h1>
+                        mb-[9px] mt-[30px] lg:mt-0'>Your Referral Code</h1>
                         <div className='code-box flex justify-center items-center w-[357px] h-[60px] text-center'>
                             <h2 className='text-[20px] leading-[30px] font-medium tracking-[1.5em] text-center ml-[31px]'>EDCH54</h2>
                         </div>
@@ -45,7 +45,7 @@ const ReferAndEarn = () => {
                 <div className='mt-[40px]'>
                     <h1 className='text-primary text-[24px] font-semibold 
                     leading-[36px] mb-[22px]'>How does it work?</h1>
-                    <div className='flex justify-start items-start gap-[38px] 
+                    <div className='flex flex-col lg:flex lg:flex-row justify-start items-start gap-[38px] 
                     mb-[63px]'>
                         <div>
                             <div className='flex items-start gap-[20px] mb-[37px]'>
@@ -110,8 +110,8 @@ const ReferAndEarn = () => {
                 </Link>
                 <h2 className='text-primary text-[16px] font-medium 
                     leading-[24px] mb-[80px]'>Terms & Conditions</h2>
-            </section>
-        </main>
+            </div>
+        </section>
     );
 };
 

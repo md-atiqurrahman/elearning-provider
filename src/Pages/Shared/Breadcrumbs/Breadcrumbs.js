@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Breadcrumbs = () => {
     return (
-        <div className='pt-[30px] pb-[25px] ml-[187px]'>
+        <section className='pt-[30px] pb-[25px] ml-[35px] lg:ml-[187px]'>
                 <div className="text-black text-[14px] leading-[21px] font-normal breadcrumbs">
                     <ul>
                         <li>UI/UX</li>
@@ -11,7 +11,7 @@ const Breadcrumbs = () => {
                         <li><Link to='/friendsReferred'>Friends Referred</Link></li>
                     </ul>
                 </div>
-            </div>
+            </section>
     );
 };
 

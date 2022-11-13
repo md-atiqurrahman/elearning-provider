@@ -9,12 +9,14 @@ import Breadcrumbs from "./Pages/Shared/Breadcrumbs/Breadcrumbs";
 function App() {
   return (
     <div className="App">
-       <Navbar/>
-       <Breadcrumbs></Breadcrumbs>
-       <Routes>
-          <Route path="/" element={<ReferAndEarn/>}/>
-          <Route path="/friendsReferred" element={<FriendsReferred/>}/>
-       </Routes>
+      <Navbar />
+      <main>
+        <Breadcrumbs></Breadcrumbs>
+        <Routes>
+          <Route path="/" element={<ReferAndEarn />} />
+          <Route path="/friendsReferred" element={<FriendsReferred />} />
+        </Routes>
+      </main>
     </div>
   );
 }
