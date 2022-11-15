@@ -17,15 +17,15 @@ const ReferAndEarn = () => {
                         <div className="card-body  p-[20px]">
                             <div className='grid grid-cols-2 gap-3 lg:flex lg:justify-between'>
                                 <div>
-                                    <h4 className="text-primary text-[14px] font-normal leading-[21px]">Referral Earning</h4>
+                                    <h3 className="text-primary text-[14px] font-normal leading-[21px]">Referral Earning</h3>
                                     <h1 className='text-black font-medium text-[32px] leading-[48px]'>₹ 2,500</h1>
                                 </div>
                                 <div>
-                                    <h4 className="text-primary text-[14px] font-normal leading-[21px]">Total Referrals</h4>
+                                    <h3 className="text-primary text-[14px] font-normal leading-[21px]">Total Referrals</h3>
                                     <h1 className='text-black font-medium text-[32px] leading-[48px]'>7</h1>
                                 </div>
                                 <div>
-                                    <h4 className="text-primary text-[14px] font-normal leading-[21px]">Wallet Balance</h4>
+                                    <h3 className="text-primary text-[14px] font-normal leading-[21px]">Wallet Balance</h3>
                                     <h1 className='text-black font-medium text-[32px] leading-[48px]'>₹ 500</h1>
                                 </div>
                             </div>
